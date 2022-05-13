@@ -82,7 +82,8 @@ for (var i = 0; i < enemyNames.length; i++) {
   enemyHealth = 50;
   fight(pickedEnemyName);
   }
- else {
-    window.alert("You need to pick a valid option. Try again!");
+  else {
+    window.alert("You have lost your robot in battle! Game Over!");
+    break;
   }
 }
